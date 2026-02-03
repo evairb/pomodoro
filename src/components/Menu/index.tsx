@@ -11,8 +11,6 @@ export function Menu() {
     return storageTheme;
   });
 
-  const [iconTheme, setIconTheme] = useState('')
-
   const nextThemeIcon = {
     dark: <SunIcon />,
     light: <MoonIcon />
@@ -35,7 +33,6 @@ export function Menu() {
 
   return (
     <nav className={styles.menu}>
-      <h1>{theme}</h1>
       <a
         className={styles.menuLink}
         href="#"
@@ -67,7 +64,7 @@ export function Menu() {
         title="Mudar Tema"
         onClick={handleThemeChange}
       >
-        <SunIcon />
+        {nextThemeIcon[theme]}
       </a>
     </nav>
   );

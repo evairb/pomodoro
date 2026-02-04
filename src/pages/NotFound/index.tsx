@@ -9,7 +9,7 @@ export function NotFound() {
       <Container>
         <GenericHtml>
           <Heading>404 - Página não encontrada 🚀</Heading>
-          <p>
+          <p>?
             Opa! Parece que a página que você está tentando acessar não existe.
             Talvez ela tenha tirado férias, resolvido explorar o universo ou se
             perdido em algum lugar entre dois buracos negros. 🌌
